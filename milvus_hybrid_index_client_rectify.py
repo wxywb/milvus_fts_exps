@@ -2,7 +2,6 @@ import random
 import string
 import numpy as np
 import json
-from tqdm import tqdm
 
 from pymilvus import MilvusClient, DataType, Function, FunctionType, utility
 
