@@ -3,7 +3,6 @@ import string
 import numpy as np
 import json
 import os
-from tqdm import tqdm
 
 from pymilvus import MilvusClient, DataType, Function, FunctionType, utility
 from pymilvus.model.hybrid import BGEM3EmbeddingFunction

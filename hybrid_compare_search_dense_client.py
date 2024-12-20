@@ -1,8 +1,6 @@
 import pickle
 import json
 import os
-from elasticsearch import Elasticsearch
-from elasticsearch.helpers import bulk
 from pymilvus import (
     MilvusClient,
     AnnSearchRequest,

@@ -2,6 +2,17 @@
 
 This repository demonstrates experiments using Milvus for **Full Text Search** (FTS) and **Hybrid Search** capabilities. We explore the comparison between **dense search**, **sparse search**, and **hybrid search** for retrieving relevant data.
 
+## Prerequisite
+Deploy [Milvus 2.5](https://milvus.io/docs/install_standalone-docker-compose.md) 
+
+Install PyMivus with Model Library.
+```bash
+pip install "pymilvus[model]" -U
+```
+
+Get a [Voyage AI](https://www.voyageai.com/) API Key.
+
+
 ## Setup
 
 Before running any experiments, ensure that the required environment variables and collections are properly set up.
